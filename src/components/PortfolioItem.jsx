@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 export default function PortfolioItem({ title, imgUrl, stack, link, text }) {
   return (
     <div className="border border-stone-300 dark:border-stone-600 rounded-md overflow-hidden">
@@ -24,3 +26,11 @@ export default function PortfolioItem({ title, imgUrl, stack, link, text }) {
     </div>
   );
 }
+
+PortfolioItem.propTypes = {
+  title: PropTypes.string.isRequired,
+  imgUrl: PropTypes.string.isRequired,
+  stack: PropTypes.string.isRequired,
+  link: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired,
+};

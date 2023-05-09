@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import classNames from "classnames";
 import { twMerge } from "tailwind-merge";
 
@@ -39,7 +40,7 @@ export default function StackItem({
   classes = twMerge(classes);
 
   return (
-    <div className="flex items-center gap-2 px-2 py-1 hover:bg-neutral-300 dark:hover:bg-neutral-700 rounded-full transition-colors duration-300">
+    <div className="flex items-center gap-1.5 px-2 py-1 hover:bg-neutral-300 dark:hover:bg-neutral-700 rounded-full transition-colors duration-300">
       <div {...rest} className={classes}></div>
       {children}
     </div>
@@ -47,6 +48,21 @@ export default function StackItem({
 }
 
 StackItem.propTypes = {
+  children: PropTypes.string.isRequired,
+  html: PropTypes.string.isRequired,
+  css: PropTypes.string.isRequired,
+  sass: PropTypes.string.isRequired,
+  bootstrap: PropTypes.string.isRequired,
+  tailwind: PropTypes.string.isRequired,
+  ruby: PropTypes.string.isRequired,
+  rails: PropTypes.string.isRequired,
+  javascript: PropTypes.string.isRequired,
+  node: PropTypes.string.isRequired,
+  stimulus: PropTypes.string.isRequired,
+  postgresql: PropTypes.string.isRequired,
+  git: PropTypes.string.isRequired,
+  mapbox: PropTypes.string.isRequired,
+  turf: PropTypes.string.isRequired,
   checkVariationValue: ({
     html,
     css,
