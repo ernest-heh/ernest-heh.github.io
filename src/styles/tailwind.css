@@ -19,7 +19,7 @@
 
 .page:before {
   animation: grain 8s steps(10) infinite;
-  background-image: url(src/assets/noise.png);
+  background-image: url(/assets/noise.png);
   content: "";
   height: 300%;
   left: -50%;

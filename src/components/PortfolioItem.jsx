@@ -25,7 +25,6 @@ export default function PortfolioItem({ title, imgUrl, link, text }) {
 PortfolioItem.propTypes = {
   title: PropTypes.string.isRequired,
   imgUrl: PropTypes.string.isRequired,
-  stack: PropTypes.string.isRequired,
   link: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,
 };
