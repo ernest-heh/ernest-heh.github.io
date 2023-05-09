@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 export default function PortfolioItem({ title, imgUrl, link, text }) {
   return (
-    <div className="border bg-white dark:bg-neutral-800 border-stone-300 dark:border-stone-600 rounded-md overflow-hidden">
+    <div className="border bg-white dark:bg-neutral-800 border-neutral-300 dark:border-neutral-600 rounded-md overflow-hidden">
       <img
         src={imgUrl}
         alt="portfolio"
@@ -15,7 +15,12 @@ export default function PortfolioItem({ title, imgUrl, link, text }) {
         <p className="mb-4 tracking-[0.025rem]">{text}</p>
 
         <div className="flex gap-4 text-sm font-semibold">
-          <a href={link}>&rarr; View on GitHub</a>
+          <a
+            className="px-4 py-2 rounded-full border border-neutral-300 dark:border-neutral-600 hover:bg-neutral-200 hover:dark:bg-neutral-700 transition-colors duration-300"
+            href={link}
+          >
+            &rarr; View on GitHub
+          </a>
         </div>
       </div>
     </div>
