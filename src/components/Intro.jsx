@@ -6,8 +6,8 @@ export default function Intro() {
     <div className="text-start pt-20 pb-16 border-b border-stone-300 dark:border-stone-600">
       <p className="text-3xl max-w-xl font-[350] leading-snug tracking-[.015em] mb-6">
         Hey there, I&apos;m <span className="font-[560]">Ernest Ho</span> — a
-        Developer with a passion for all things Design. Recently graduated from
-        a Web Development Bootcamp at{" "}
+        Web Developer with a passion for all things Design. Recently graduated
+        from a Web Development Bootcamp at{" "}
         <a
           className="underline underline-offset-[0.2rem] decoration-2"
           href="https://www.lewagon.com/singapore"
