@@ -9,7 +9,7 @@ export default function PortfolioItem({ title, imgUrl, link, text }) {
         className="w-full aspect-[16/8.5] object-cover"
       />
       <div className="w-full p-4">
-        <h3 className="text-2xl md:text-3xl mt-2 mb-2 md:mb-3 font-semibold">
+        <h3 className="text-2xl md:text-3xl mt-2 mb-2 md:mb-3 font-semibold text-neutral-800 dark:text-neutral-100">
           {title}
         </h3>
         <p className="mb-4 tracking-[0.025rem]">{text}</p>
