@@ -16,7 +16,7 @@ export default function Stack() {
         <StackItem rails>Ruby on Rails</StackItem>
         <StackItem javascript>JavaScript</StackItem>
         <StackItem node>Node.js</StackItem>
-        <StackItem stimulus>Stimulus</StackItem>
+        <StackItem stimulus>Stimulus.js</StackItem>
         <StackItem postgresql>PostgreSQL</StackItem>
         <StackItem git>Git</StackItem>
         <StackItem mapbox>Mapbox</StackItem>

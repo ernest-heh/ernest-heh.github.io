@@ -4,7 +4,7 @@ import { MdMail } from "react-icons/md";
 export default function Intro() {
   return (
     <div className="text-start pt-20 pb-20 border-b border-stone-300 dark:border-stone-600">
-      <p className="text-3xl max-w-xl font-[350] leading-snug tracking-[.015em] mb-6">
+      <p className="text-3xl md:text-[2.5rem] font-[350] leading-tighter md:leading-tight tracking-[.015em] mb-12">
         Hey there, I&apos;m{" "}
         <span className="font-[560] text-black dark:text-white">Ernest Ho</span>{" "}
         — a Web Developer with a passion for all things Design. Recently
