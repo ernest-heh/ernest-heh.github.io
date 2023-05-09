@@ -43,7 +43,7 @@ export default function Intro() {
           <div
             id="tooltip-github"
             role="tooltip"
-            className="absolute z-10 invisible inline-block px-1.5 py-1 text-xs font-medium text-white bg-neutral-600 rounded-md shadow-sm opacity-0 tooltip dark:bg-neutral-200 dark:text-neutral-800 transition-opacity duration-300"
+            className="absolute z-10 invisible inline-block px-2 py-1 text-xs font-medium text-white bg-neutral-600 rounded-full shadow-sm opacity-0 tooltip dark:bg-neutral-200 dark:text-neutral-800 transition-opacity duration-300"
           >
             GitHub
           </div>
@@ -61,7 +61,7 @@ export default function Intro() {
           <div
             id="tooltip-linkedin"
             role="tooltip"
-            className="absolute z-10 invisible inline-block px-1.5 py-1 text-xs font-medium text-white bg-neutral-600 rounded-md shadow-sm opacity-0 tooltip dark:bg-neutral-200 dark:text-neutral-800 transition-opacity duration-300"
+            className="absolute z-10 invisible inline-block px-2 py-1 text-xs font-medium text-white bg-neutral-600 rounded-full shadow-sm opacity-0 tooltip dark:bg-neutral-200 dark:text-neutral-800 transition-opacity duration-300"
           >
             LinkedIn
           </div>
@@ -79,7 +79,7 @@ export default function Intro() {
           <div
             id="tooltip-email"
             role="tooltip"
-            className="absolute z-10 invisible inline-block px-1.5 py-1 text-xs font-medium text-white bg-neutral-600 rounded-md shadow-sm opacity-0 tooltip dark:bg-neutral-200 dark:text-neutral-800 transition-opacity duration-300"
+            className="absolute z-10 invisible inline-block px-2 py-1 text-xs font-medium text-white bg-neutral-600 rounded-full shadow-sm opacity-0 tooltip dark:bg-neutral-200 dark:text-neutral-800 transition-opacity duration-300"
           >
             Email
           </div>
