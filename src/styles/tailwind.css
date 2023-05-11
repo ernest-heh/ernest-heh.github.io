@@ -63,3 +63,22 @@
     transform: translate(-10%, 10%);
   }
 }
+
+.link-arrow:before {
+  content: "→";
+  margin-right: 0.4rem;
+  font-size: 1.2rem;
+  -webkit-transition: transform 0.3s ease-out;
+  -moz-transition: transform 0.3s ease-out;
+  -ms-transition: transform 0.3s ease-out;
+  -o-transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+}
+
+.link-arrow:hover::before {
+  -webkit-transform: translateX(0.2rem);
+  -moz-transform: translateX(0.2rem);
+  -ms-transform: translateX(0.2rem);
+  -o-transform: translateX(0.2rem);
+  transform: translateX(0.2rem);
+}

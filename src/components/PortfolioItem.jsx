@@ -1,5 +1,4 @@
 import PropTypes from "prop-types";
-import { HiArrowNarrowRight } from "react-icons/hi";
 
 export default function PortfolioItem({ title, imgUrl, link, text }) {
   return (
@@ -17,13 +16,12 @@ export default function PortfolioItem({ title, imgUrl, link, text }) {
 
         <div className="flex gap-4 text-sm font-semibold">
           <a
-            className="flex items-center px-4 py-2 rounded-full border border-neutral-300 dark:border-neutral-600 hover:bg-neutral-200 hover:dark:bg-neutral-700 transition-colors duration-300"
+            className="link-arrow flex items-center ps-3 pe-4 py-2 rounded-full border border-neutral-300 dark:border-neutral-600 hover:bg-neutral-200 hover:dark:bg-neutral-700 transition-colors duration-300"
             href={link}
             target="_blank"
             rel="noreferrer"
           >
-            <HiArrowNarrowRight className="inline text-xl" />
-            &ensp;View on GitHub
+            View on GitHub
           </a>
         </div>
       </div>
