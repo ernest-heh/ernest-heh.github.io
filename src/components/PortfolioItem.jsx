@@ -1,13 +1,16 @@
 import PropTypes from "prop-types";
+import PortfolioItemSwiper from "./PortfolioItemSwiper";
 
-export default function PortfolioItem({ title, imgUrl, link, text }) {
+export default function PortfolioItem({ title, images, link, text }) {
   return (
     <div className="border bg-white dark:bg-neutral-800 border-neutral-300 dark:border-neutral-600 rounded-md overflow-hidden">
-      <img
+      {/* <img
         src={imgUrl}
         alt="portfolio"
         className="w-full aspect-[16/8.5] object-cover"
-      />
+      /> */}
+      <PortfolioItemSwiper images={images} />
+
       <div className="w-full p-4">
         <h3 className="text-2xl md:text-3xl mt-2 mb-2 md:mb-3 font-semibold text-neutral-800 dark:text-neutral-100">
           {title}
@@ -31,7 +34,7 @@ export default function PortfolioItem({ title, imgUrl, link, text }) {
 
 PortfolioItem.propTypes = {
   title: PropTypes.string.isRequired,
-  imgUrl: PropTypes.string.isRequired,
+  images: PropTypes.array.isRequired,
   link: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,
 };

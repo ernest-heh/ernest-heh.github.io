@@ -12,7 +12,7 @@ export default function Portfolio() {
           {portfolio.map((project) => (
             <PortfolioItem
               key={project.title}
-              imgUrl={project.imgUrl}
+              images={project.images}
               title={project.title}
               link={project.link}
               text={project.text}

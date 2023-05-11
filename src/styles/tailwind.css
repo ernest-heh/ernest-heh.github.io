@@ -82,3 +82,14 @@
   -o-transform: translateX(0.2rem);
   transform: translateX(0.2rem);
 }
+
+/* Swiper Override */
+
+:root {
+  --swiper-navigation-size: 1.5rem !important;
+  --swiper-theme-color: rgb(57, 57, 57);
+}
+
+.dark {
+  --swiper-theme-color: white;
+}
