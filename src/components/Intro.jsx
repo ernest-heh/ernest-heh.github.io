@@ -5,7 +5,6 @@ export default function Intro() {
   return (
     <div className="text-start pt-20 pb-20 border-b border-neutral-300 dark:border-neutral-600">
       <p className="text-3xl md:text-[2.5rem] font-[350] leading-tighter md:leading-tight tracking-[.015em] mb-12">
-        Hey there, I&apos;m{" "}
         <span className="font-[560] text-neutral-700 dark:text-white">
           Ernest Ho
         </span>{" "}
