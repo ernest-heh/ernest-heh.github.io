@@ -4,6 +4,11 @@
 
 html {
   color-scheme: light dark;
+  background-color: #fafafa;
+}
+
+.dark {
+  background-color: #262626;
 }
 
 .available {

@@ -41,7 +41,7 @@ function App() {
           <FiMoon className="text-neutral-500" />
         )}
       </button>
-      <div className="transition-colors duration-200 bg-neutral-100 dark:bg-neutral-800 text-neutral-600 dark:text-neutral-300 selection:bg-amber-200 selection:text-neutral-900 dark:selection:text-white dark:selection:bg-orange-400">
+      <div className="transition-colors duration-200 text-neutral-600 dark:text-neutral-300 selection:bg-amber-200 selection:text-neutral-900 dark:selection:text-white dark:selection:bg-orange-400">
         <div className="page flex flex-col min-h-screen max-w-4xl w-11/12 mx-auto">
           <Intro />
           <Portfolio />
